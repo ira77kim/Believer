@@ -1,0 +1,104 @@
+body{
+    background-color: #c4c4c4;
+    color:#616161;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+* {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    /* align-self: center; */
+    content: "";
+    display: table;
+    clear: both;
+    /* width:70%; */
+    /* left: 30%; */
+  }
+h1{
+    font-family: 'Cutive', serif;
+    font-size: 4vw;
+    text-align: center;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    text-align: center;
+}
+
+#title{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#intro{
+    font-size: 1.5vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* .q{
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} */
+#first{
+    position: absolute;
+    top:70%;
+}
+#sub{
+    text-align: left;
+    margin-left: 17.5%;
+}
+#q1{
+    margin-left: 35%;
+    width:62.5%;
+    text-align: left;
+}
+#form{
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width:50%;
+    height:15%;
+}
+textarea{
+    margin-top:2.3%;
+    /* margin-left: 2.5%; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    width:60%;
+}
