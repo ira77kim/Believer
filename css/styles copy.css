@@ -1,9 +1,11 @@
 body{
+    /* background-image: url('img/MabBook-5.jpg'); */
     background-color: #c4c4c4;
     color:#616161;
     /* animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; */
+    
 }
   
 @keyframes fadeInAnimation {
@@ -191,7 +193,7 @@ textarea:focus, input:focus{
     display: inline-block;
     font-size: 1.3vw;
     opacity:70%;
-    margin-top:15px;
+    margin-top:40px;
 
 }
 #cta1:hover{
