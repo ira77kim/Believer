@@ -3,15 +3,10 @@
 
 // document.getElementById('cta1').onclick=get();
 let input
+window.addEventListener('scroll',get);
 function get(){
-    // input = document.getElementById('write').value;
-    window.location.href='believer.html';
-    console.log(input);
-}
-function last(){
-    window.location.href='after.html';
-}
-
-function mouseOver() {
     input = document.getElementById('write').value;
+    
+    console.log("input is", input);
+    document.getElementById('specifics').innerHTML=input;
 }
