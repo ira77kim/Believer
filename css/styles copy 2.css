@@ -1,7 +1,14 @@
 body{
-    background-image: url("img/MacBook-5.jpg");
+    background: url("/img/MacBook-5.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 60%; */
     background-color: #c4c4c4;
     color:#616161;
+
+    min-height: 100%;
     /* animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; */
@@ -18,7 +25,7 @@ body{
 }
 .parallax {
     /* The image used */
-    background-image: url("Untitled-1.png");
+    /* background-image: url("Untitled-1.png"); */
   
     /* Set a specific height */
     min-height: 500px; 
