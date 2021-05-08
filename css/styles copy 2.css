@@ -320,4 +320,9 @@ textarea:focus, input:focus{
 }
 .cre{
     font-size: 1.2vw;
+    text-decoration: underline;
+    
+}
+a{
+    color:#616161;
 }
