@@ -1,13 +1,14 @@
 body{
-    background: url("/img/macbook.jpg");
+    background-color: #c4c4c4;
+    color:#616161;
+    /* background: url("/img/macbook.jpg"); */
+    background: url("https://https://github.com/ira77kim/Believer/blob/main/img/macbook.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* opacity: 60%; */
-    background-color: #c4c4c4;
-    color:#616161;
-
+    
     min-height: 100%;
     /* animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
